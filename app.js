@@ -156,9 +156,7 @@ console.log(joe);
 
 
 
-// Student.prototype.greeting = () => {
-//   return `Hi, my name is ${this.name}`;
-// };
+// Student.prototype.greeting = () => `Hi, my name is ${this.name}`;
 
 Student.prototype.greeting = function() {
   return `Hi, my name is ${this.name}`;
